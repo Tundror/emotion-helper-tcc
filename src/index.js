@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import App from './app.js';
 import GlobalStyle from './style/GlobalStyle.js';
 import ResetStyle from './style/ResetStyle.js';
 

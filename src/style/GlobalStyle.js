@@ -1,6 +1,28 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
+	  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+  }
+
+  :root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Arial, sans-serif';
+    background-color: #f9f9f9; /* Cor de fundo do body */
+  }
+
+  div {
+    height: 100%;
+    width: 100%;
+  }
+
 	button {
 		height: 43px;
 		border-radius: 3px;
